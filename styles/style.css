@@ -78,6 +78,12 @@ nav li a{
     border-radius: 8px;
     margin-bottom: 35px;
 }
+.btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
 .header-image{
     display: flex;
     justify-content: center;
@@ -148,17 +154,67 @@ nav li a{
 .top-body-description{
     padding-bottom: 25px;
 }
+@media screen and (max-width : 576px){
+    .top-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-body-texts h1,h3{
+        text-align: center;
+    }
+}
 
 /* mid body  */
 
 .mid-body-div{
     display:flex; 
     margin: 0  15%;
-    border: 2px solid red;
+    display: none;
 }
-.mid-img{
-    border: 2px solid brown;
+.text-block-spr h3{
+    padding-bottom: 5%;
+}
+.text-blocks{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.text-blocks h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-bottom: 2%;
 }
 .mid-body-text{
-    border: 2px solid red;
+    padding-right: 5%;
+}
+.mid-img{
+    padding-left: 5%;
+}
+.big-btn{
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 5%;
+}
+.big-btn-big-text{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+ 
+}
+.big-btn-small-text{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
 }
