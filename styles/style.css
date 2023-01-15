@@ -126,6 +126,7 @@ nav li a{
 }
 .top-body-image{
     width: 50%;
+    padding-left: 10%;
 }
 .images{
     display: grid;
@@ -179,6 +180,10 @@ nav li a{
 }
 .text-block-spr h3{
     padding-bottom: 5%;
+    margin-left: 5%;
+}
+.text-block-spr h1{
+    margin-left: 5%;
 }
 .text-blocks{
     background: #FFFFFF;
@@ -186,6 +191,8 @@ nav li a{
     border-radius: 8px;
     padding: 5%;
     margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .text-blocks h3{
     font-weight: 600;
@@ -194,7 +201,7 @@ nav li a{
     padding-bottom: 2%;
 }
 .mid-body-text{
-    padding-right: 5%;
+    padding-right: 2%;
 }
 .mid-img{
     
@@ -318,7 +325,6 @@ nav li a{
     text-decoration: none;
     font-size: 25px;
     font-weight: 600;
-    transition: ;
     
 }
 .extra{
