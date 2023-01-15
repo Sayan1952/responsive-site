@@ -148,3 +148,17 @@ nav li a{
 .top-body-description{
     padding-bottom: 25px;
 }
+
+/* mid body  */
+
+.mid-body-div{
+    display:flex; 
+    margin: 0  15%;
+    border: 2px solid red;
+}
+.mid-img{
+    border: 2px solid brown;
+}
+.mid-body-text{
+    border: 2px solid red;
+}
