@@ -204,6 +204,9 @@ nav li a{
     border: none;
     border-radius: 8px;
     padding: 3%;
+    position: relative;
+    bottom: 90px;
+    right: 50px;
 }
 .big-btn-big-text{
     font-weight: 700;
@@ -307,6 +310,51 @@ nav li a{
         margin-bottom: 5%;
     }  
 }
+
+
+/* extra section  */
+
+.extra-div a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    transition: ;
+    
+}
+.extra{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+.extra-div{
+    border: 1px solid sandybrown;
+    padding: 2%;
+    border-radius: 5px;
+    background: #FF900E;
+    transition:  .2s;
+    
+}
+.extra-div a:hover{
+    color: #FFF4E7;
+}
+.extra-div:hover{
+    transform: scale(1.25);
+}
+
+@media screen and (max-width : 576px){
+    .extra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .extra-div{
+        margin-bottom: 5%;
+    }
+}
+
+
+
+
 
 
 /* sponsor  */
