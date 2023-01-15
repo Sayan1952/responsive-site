@@ -303,3 +303,42 @@ nav li a{
         margin-bottom: 5%;
     }  
 }
+
+
+/* sponsor  */
+
+.sponser-text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sponsor-icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+@media screen and (max-width : 576px){
+    .sponsor-icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsor-icon div{
+        margin-bottom: 3%;
+    }
+}
+
+
+
+/* footer */
+
+.footer-part{
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 2%;
+    margin: 5% 6% 10% 6%;
+    text-align: center;
+    color: #424242;
+
+}
