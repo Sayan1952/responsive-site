@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700&display=swap');
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -45,6 +45,7 @@ nav li a{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+    margin-bottom: 25px;
 }
 .nav-txt{
     font-weight: 500;
@@ -107,4 +108,43 @@ nav li a{
         background-color: antiquewhite;
         color: #424242;
     }
+}
+
+/* main body  */
+
+/* top body  */
+
+.top-body{
+    display: flex;
+    padding-bottom: 5%;
+}
+.top-body-image{
+    width: 50%;
+}
+.images{
+    display: grid;
+    grid-template-columns: 340px 340px; 
+    gap: 25px;
+    align-items: center;
+    justify-content: right;
+    margin-top: 10%;
+}
+.quick-list{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.features{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.top-body-texts{
+    text-align: left;
+    width: 50%;
+    padding-top: 20%;
+    padding-left: 7%;
+}
+.top-body-description{
+    padding-bottom: 25px;
 }
